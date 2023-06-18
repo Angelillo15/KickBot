@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "outDir": "dist",
+      "useDefineForClassFields": true,
+      "module": "CommonJS",
+      "noEmit": true,
+      "noImplicitAny": false,
+      "allowJs": true
+    },
+    "include": ["src"],
+    "references": [
+      { "path": "./tsconfig.node.json" }
+    ]
+  }
